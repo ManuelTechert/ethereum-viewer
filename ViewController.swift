@@ -9,7 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var changedToEur : Bool = false
 
+    
+    //MARK: Properties
+    
+    @IBOutlet weak var currentValue: UILabel!
+    @IBOutlet weak var currentText: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +30,19 @@ class ViewController: UIViewController {
     }
 
 
+    //MARK: Actions
+    
+    @IBAction func changeToEUR(_ sender: UIButton) {
+        if changedToEur == false{
+            currentValue.text = "some EUR"
+            changedToEur = true
+
+        }
+        else{
+            currentValue.text = "10990,2$"
+            changedToEur = false
+        }
+    }
+    
 }
 
