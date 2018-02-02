@@ -10,9 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var ethereumVal:Double = 0.0
-    var news1:String = ""
-    var news2:String = ""
+    
+    
 
     
     //MARK: Properties
@@ -23,24 +22,37 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //api call
         
-        
-        //api call end
             
-        
+        //https://api.coinmarketcap.com/v1/ticker/ethereum/
+
         
     
         
-        //Initialise ethereumVal with api call
-            //var url:String = ""
-            //ethereumVal =
         
+        
+       
+     
+        
+
+        let urlString = URL(string: "http://jsonplaceholder.typicode.com/users/1")
+        if let url = urlString {
+            let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+                if error != nil {
+                    print("cool")
+                } else {
+                    if let usableData = data {
+                        print(usableData) //JSONSerialization
+                    }
+                }
+            }
+            task.resume()
         //Initialise news with api call
     
             //news1 = 
             //news2 =
         
+        }
         
         // Do any additional setup after loading the view, typically from a nib.
     }
