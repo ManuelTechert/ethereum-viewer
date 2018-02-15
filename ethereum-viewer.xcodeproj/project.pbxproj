@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB3E6C062031C4560039FAB0 /* ethereumValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3E6C052031C4560039FAB0 /* ethereumValues.swift */; };
+		CB4CA0BB2024AA3600DF02FE /* OverviewIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4CA0BA2024AA3600DF02FE /* OverviewIcon.png */; };
+		CB4CA0BD2024ABE300DF02FE /* newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4CA0BC2024ABE300DF02FE /* newspaper.png */; };
+		CB825C3A2035D36D0048F9F9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB825C392035D36D0048F9F9 /* Default-568h@2x.png */; };
+		CB8DC5D72019008C002F7D40 /* diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8DC5D52019008C002F7D40 /* diagram.png */; };
+		CBC435BE20178CE100DD38F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC435BD20178CE100DD38F3 /* AppDelegate.swift */; };
+		CBC435C020178CE100DD38F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC435BF20178CE100DD38F3 /* ViewController.swift */; };
+		CBC435C320178CE100DD38F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC435C120178CE100DD38F3 /* Main.storyboard */; };
+		CBC435C520178CE100DD38F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC435C420178CE100DD38F3 /* Assets.xcassets */; };
+		CBC435C820178CE100DD38F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC435C620178CE100DD38F3 /* LaunchScreen.storyboard */; };
+		CBC8773A2022337D003559C0 /* calendar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CBC877382022337D003559C0 /* calendar.jpeg */; };
+		CBC8773B2022337D003559C0 /* clock.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CBC877392022337D003559C0 /* clock.jpeg */; };
+		CBC8773D202234A6003559C0 /* ethereum.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC8773C202234A6003559C0 /* ethereum.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB3E6C052031C4560039FAB0 /* ethereumValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ethereumValues.swift; path = ../ethereumValues.swift; sourceTree = "<group>"; };
+		CB4CA0BA2024AA3600DF02FE /* OverviewIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OverviewIcon.png; path = ../img/OverviewIcon.png; sourceTree = "<group>"; };
+		CB4CA0BC2024ABE300DF02FE /* newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newspaper.png; path = img/newspaper.png; sourceTree = "<group>"; };
+		CB825C392035D36D0048F9F9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CB8DC5D52019008C002F7D40 /* diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diagram.png; path = ../img/diagram.png; sourceTree = "<group>"; };
+		CBC435BA20178CE100DD38F3 /* ethereum-viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ethereum-viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC435BD20178CE100DD38F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		CBC435BF20178CE100DD38F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		CBC435C220178CE100DD38F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBC435C420178CE100DD38F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		CBC435C720178CE100DD38F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBC435C920178CE100DD38F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		CBC877382022337D003559C0 /* calendar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = calendar.jpeg; path = img/calendar.jpeg; sourceTree = "<group>"; };
+		CBC877392022337D003559C0 /* clock.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = clock.jpeg; path = ../img/clock.jpeg; sourceTree = "<group>"; };
+		CBC8773C202234A6003559C0 /* ethereum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ethereum.png; path = img/ethereum.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBC435B720178CE000DD38F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBC435B120178CE000DD38F3 = {
+			isa = PBXGroup;
+			children = (
+				CB825C392035D36D0048F9F9 /* Default-568h@2x.png */,
+				CB4CA0BC2024ABE300DF02FE /* newspaper.png */,
+				CBC8773C202234A6003559C0 /* ethereum.png */,
+				CBC877382022337D003559C0 /* calendar.jpeg */,
+				CBC435BC20178CE100DD38F3 /* ethereum-viewer */,
+				CBC435BB20178CE100DD38F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBC435BB20178CE100DD38F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBC435BA20178CE100DD38F3 /* ethereum-viewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBC435BC20178CE100DD38F3 /* ethereum-viewer */ = {
+			isa = PBXGroup;
+			children = (
+				CBC877392022337D003559C0 /* clock.jpeg */,
+				CBC435BD20178CE100DD38F3 /* AppDelegate.swift */,
+				CBC435BF20178CE100DD38F3 /* ViewController.swift */,
+				CB3E6C052031C4560039FAB0 /* ethereumValues.swift */,
+				CBC435C120178CE100DD38F3 /* Main.storyboard */,
+				CB4CA0BA2024AA3600DF02FE /* OverviewIcon.png */,
+				CBC435C420178CE100DD38F3 /* Assets.xcassets */,
+				CBC435C620178CE100DD38F3 /* LaunchScreen.storyboard */,
+				CBC435C920178CE100DD38F3 /* Info.plist */,
+				CB8DC5D52019008C002F7D40 /* diagram.png */,
+			);
+			path = "ethereum-viewer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBC435B920178CE000DD38F3 /* ethereum-viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC435CC20178CE100DD38F3 /* Build configuration list for PBXNativeTarget "ethereum-viewer" */;
+			buildPhases = (
+				CBC435B620178CE000DD38F3 /* Sources */,
+				CBC435B720178CE000DD38F3 /* Frameworks */,
+				CBC435B820178CE000DD38F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ethereum-viewer";
+			productName = "ethereum-viewer";
+			productReference = CBC435BA20178CE100DD38F3 /* ethereum-viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBC435B220178CE000DD38F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Manuel Techert";
+				TargetAttributes = {
+					CBC435B920178CE000DD38F3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3JSEDK29P4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CBC435B520178CE000DD38F3 /* Build configuration list for PBXProject "ethereum-viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBC435B120178CE000DD38F3;
+			productRefGroup = CBC435BB20178CE100DD38F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBC435B920178CE000DD38F3 /* ethereum-viewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBC435B820178CE000DD38F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC435C820178CE100DD38F3 /* LaunchScreen.storyboard in Resources */,
+				CB825C3A2035D36D0048F9F9 /* Default-568h@2x.png in Resources */,
+				CBC435C520178CE100DD38F3 /* Assets.xcassets in Resources */,
+				CBC8773B2022337D003559C0 /* clock.jpeg in Resources */,
+				CB8DC5D72019008C002F7D40 /* diagram.png in Resources */,
+				CB4CA0BD2024ABE300DF02FE /* newspaper.png in Resources */,
+				CB4CA0BB2024AA3600DF02FE /* OverviewIcon.png in Resources */,
+				CBC8773D202234A6003559C0 /* ethereum.png in Resources */,
+				CBC435C320178CE100DD38F3 /* Main.storyboard in Resources */,
+				CBC8773A2022337D003559C0 /* calendar.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBC435B620178CE000DD38F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC435C020178CE100DD38F3 /* ViewController.swift in Sources */,
+				CBC435BE20178CE100DD38F3 /* AppDelegate.swift in Sources */,
+				CB3E6C062031C4560039FAB0 /* ethereumValues.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBC435C120178CE100DD38F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBC435C220178CE100DD38F3 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CBC435C620178CE100DD38F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBC435C720178CE100DD38F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBC435CA20178CE100DD38F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBC435CB20178CE100DD38F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBC435CD20178CE100DD38F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3JSEDK29P4;
+				INFOPLIST_FILE = "ethereum-viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ManuelTechert.ethereum-viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBC435CE20178CE100DD38F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3JSEDK29P4;
+				INFOPLIST_FILE = "ethereum-viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ManuelTechert.ethereum-viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBC435B520178CE000DD38F3 /* Build configuration list for PBXProject "ethereum-viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC435CA20178CE100DD38F3 /* Debug */,
+				CBC435CB20178CE100DD38F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC435CC20178CE100DD38F3 /* Build configuration list for PBXNativeTarget "ethereum-viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC435CD20178CE100DD38F3 /* Debug */,
+				CBC435CE20178CE100DD38F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBC435B220178CE000DD38F3 /* Project object */;
+}
