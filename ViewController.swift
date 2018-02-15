@@ -9,9 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    
-    
 
     
     //MARK: Properties
@@ -22,40 +19,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-            
-        //https://api.coinmarketcap.com/v1/ticker/ethereum/
-
-        
-    
+        print("loaded")
         
         
-        
-       
-     
-        
-
-        let urlString = URL(string: "http://jsonplaceholder.typicode.com/users/1")
-        if let url = urlString {
-            let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
-                if error != nil {
-                    print("cool")
-                } else {
-                    if let usableData = data {
-                        print(usableData) //JSONSerialization
-                    }
-                }
+        ethereumValues.forecast() { (results: [ethereumValues]) in
+            for result in results {
+                print("\(result)\n\n")
             }
-            task.resume()
-        //Initialise news with api call
-    
-            //news1 = 
-            //news2 =
-        
+            
         }
-        
-        // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
