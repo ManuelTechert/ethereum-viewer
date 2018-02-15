@@ -23,20 +23,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB3E6C052031C4560039FAB0 /* ethereumValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ethereumValues.swift; path = ../ethereumValues.swift; sourceTree = "<group>"; };
-		CB4CA0BA2024AA3600DF02FE /* OverviewIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OverviewIcon.png; path = ../img/OverviewIcon.png; sourceTree = "<group>"; };
+		CB3E6C052031C4560039FAB0 /* ethereumValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ethereumValues.swift; sourceTree = "<group>"; };
+		CB4CA0BA2024AA3600DF02FE /* OverviewIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OverviewIcon.png; path = img/OverviewIcon.png; sourceTree = "<group>"; };
 		CB4CA0BC2024ABE300DF02FE /* newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newspaper.png; path = img/newspaper.png; sourceTree = "<group>"; };
 		CB825C392035D36D0048F9F9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		CB8DC5D52019008C002F7D40 /* diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diagram.png; path = ../img/diagram.png; sourceTree = "<group>"; };
+		CB8DC5D52019008C002F7D40 /* diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diagram.png; path = img/diagram.png; sourceTree = "<group>"; };
 		CBC435BA20178CE100DD38F3 /* ethereum-viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ethereum-viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBC435BD20178CE100DD38F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
-		CBC435BF20178CE100DD38F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		CBC435BD20178CE100DD38F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBC435BF20178CE100DD38F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBC435C220178CE100DD38F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CBC435C420178CE100DD38F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		CBC435C420178CE100DD38F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBC435C720178CE100DD38F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CBC435C920178CE100DD38F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		CBC435C920178CE100DD38F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CBC877382022337D003559C0 /* calendar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = calendar.jpeg; path = img/calendar.jpeg; sourceTree = "<group>"; };
-		CBC877392022337D003559C0 /* clock.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = clock.jpeg; path = ../img/clock.jpeg; sourceTree = "<group>"; };
+		CBC877392022337D003559C0 /* clock.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = clock.jpeg; path = img/clock.jpeg; sourceTree = "<group>"; };
 		CBC8773C202234A6003559C0 /* ethereum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ethereum.png; path = img/ethereum.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,13 +51,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB1D097D2035D97B00FB0805 /* img */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		CBC435B120178CE000DD38F3 = {
 			isa = PBXGroup;
 			children = (
 				CB825C392035D36D0048F9F9 /* Default-568h@2x.png */,
-				CB4CA0BC2024ABE300DF02FE /* newspaper.png */,
+				CB1D097D2035D97B00FB0805 /* img */,
 				CBC8773C202234A6003559C0 /* ethereum.png */,
 				CBC877382022337D003559C0 /* calendar.jpeg */,
+				CB8DC5D52019008C002F7D40 /* diagram.png */,
+				CB4CA0BA2024AA3600DF02FE /* OverviewIcon.png */,
+				CBC877392022337D003559C0 /* clock.jpeg */,
+				CB4CA0BC2024ABE300DF02FE /* newspaper.png */,
 				CBC435BC20178CE100DD38F3 /* ethereum-viewer */,
 				CBC435BB20178CE100DD38F3 /* Products */,
 			);
@@ -74,16 +85,13 @@
 		CBC435BC20178CE100DD38F3 /* ethereum-viewer */ = {
 			isa = PBXGroup;
 			children = (
-				CBC877392022337D003559C0 /* clock.jpeg */,
 				CBC435BD20178CE100DD38F3 /* AppDelegate.swift */,
 				CBC435BF20178CE100DD38F3 /* ViewController.swift */,
 				CB3E6C052031C4560039FAB0 /* ethereumValues.swift */,
 				CBC435C120178CE100DD38F3 /* Main.storyboard */,
-				CB4CA0BA2024AA3600DF02FE /* OverviewIcon.png */,
-				CBC435C420178CE100DD38F3 /* Assets.xcassets */,
 				CBC435C620178CE100DD38F3 /* LaunchScreen.storyboard */,
 				CBC435C920178CE100DD38F3 /* Info.plist */,
-				CB8DC5D52019008C002F7D40 /* diagram.png */,
+				CBC435C420178CE100DD38F3 /* Assets.xcassets */,
 			);
 			path = "ethereum-viewer";
 			sourceTree = "<group>";
@@ -183,7 +191,6 @@
 				CBC435C220178CE100DD38F3 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		CBC435C620178CE100DD38F3 /* LaunchScreen.storyboard */ = {
@@ -192,7 +199,6 @@
 				CBC435C720178CE100DD38F3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
